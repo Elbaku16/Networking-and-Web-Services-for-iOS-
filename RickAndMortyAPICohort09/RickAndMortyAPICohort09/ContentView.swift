@@ -1,0 +1,24 @@
+//
+//  ContentView.swift
+//  RickAndMortyAPICohort09
+//
+//  Created by Lenin Baku Cortez Hernandez on 31/07/26.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
